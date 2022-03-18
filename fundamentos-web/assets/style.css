@@ -1,0 +1,64 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Montserrat:display=swap');
+
+/* index 
+*/
+
+
+*{
+    text-decoration: none;
+    font-family: "Monstserrat", sans-serif;
+}
+
+body {
+    background: linear-gradient(to bottom, #91a8f3, #8bf8f8);
+  }
+
+
+
+#menu ul li {
+    display: inline;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 16px;
+}
+ #menu ul li a{
+     color: brown;
+    
+ }
+
+ #titulo{
+     color: crimson;
+     text-align: center;
+     font-size: 40px;
+ }
+ #menu ul li a:hover{
+   color: coral;
+ }
+
+ #titulo:hover{
+     color:coral;
+     cursor: grabbing;
+ }
+
+ .centralizar{
+     text-align: center;
+     align-items: center;
+ }
+
+ .container{
+     display: flex;
+flex-flow: row;  
+justify-content: center;
+align-items: center;
+text-align: center;
+padding-left: 15px;
+margin: 2px;
+
+ }
+
+ .container img{
+     width: 500px;
+     height: auto;
+   
+ }
